@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-image: linear-gradient(135deg, #b5377c, #190950);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+
+        form {
+            background-color: whitesmoke;
+            padding: 10px;
+            max-width: 500px;
+            display: block;
+
+            box-shadow: 3px 3px 15px black;
+            border-radius: 3px;
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        fieldset {
+            border: none;
+
+        }
+
+        legend {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        input {
+            width: 100%;
+            min-height: 30px;
+            margin: 10px auto 10px auto;
+
+
+        }
+
+        textarea {
+            width: 100%;
+            max-width: 500px;
+            margin-top: 10px;
+        }
+
+        button {
+            width: 120px;
+            min-height: 30px;
+            margin-top: 10px;
+
+            background-color: #2583ff;
+            color: whitesmoke;
+
+            border: none;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background-color: #3e91fd;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Formulário de Contato</legend>
+
+                <label for="">Nome:</label>
+                <input type="text" name="" id="" placeholder="Digite seu nome..." required>
+
+                <label for="">Email:</label>
+                <input type="email" name="" id="" placeholder="Digite seu e-mail..." required>
+
+
+                <label for="">Menssagem:</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Digite a menssagem que deseja..."
+                    required></textarea>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+
+</html>
